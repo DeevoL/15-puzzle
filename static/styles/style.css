@@ -1,0 +1,47 @@
+td {
+	width: 80px;
+	height: 80px;
+	height: 90px;
+	min-width: 60px;
+	background-color: rgb(116, 123, 218);
+	float: none;
+	display: inline-block;
+	box-shadow: inset 2px 2px 1px 1px rgba(255, 255, 255, .46), inset -2px -2px 1px 1px rgba(0, 0, 0, .26);
+	margin: 0.5px;
+	border: 2px solid rgba(0, 0, 0, 0.65);
+	text-align: center;
+	font-weight: bold;
+	padding: 25px 0;
+}
+
+button {
+	background-color: rgb(120, 127, 223);
+}
+
+body {
+	background-color: rgb(43, 54, 92);
+}
+
+.blank {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+	box-shadow: none;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#randomize {
+	margin-top: 30px;
+}
+
+#count-display {
+	font-size: larger;
+	color: antiquewhite;
+}

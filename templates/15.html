@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/cosmo/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/style.css') }}">
+<title>Title</title>
+</head>
+<body>
+
+<p id="count-display">
+    Number of Moves: <span id="counter"> 0 </span>
+</p>
+
+<div  class="center">
+    <table class="center tbl">
+        <tr>
+            <td id = 0></td>
+            <td id = 0>2</td>
+            <td id = 0>3</td>
+            <td id = 0>4</td>
+        </tr>
+        <tr>
+            <td id = 1>5</td>
+            <td id = 1>6</td>
+            <td id = 1>7</td>
+            <td id = 1>8</td>
+        </tr>
+        <tr>
+            <td id = 2>9</td>
+            <td id = 2>10</td>
+            <td id = 2>11</td>
+            <td id = 2>12</td>
+        </tr>
+        <tr>
+            <td id = 3>13</td>
+            <td id = 3>14</td>
+            <td id = 3>15</td>
+            <td id = 3></td>
+        </tr>
+    </table>
+
+    <button id="randomize">Reset</button>
+    <br></br>
+    <button id ="solve">Solve(can take several seconds)</button>
+
+
+<script src="{{url_for('static', filename='js/15.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
